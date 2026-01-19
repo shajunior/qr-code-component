@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | QR code component</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .attribution {
+      background-color: white;
+      width: 320px;
+      padding: 16px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0px 25px 50px rgba(0,0,0,0.08);
+    }
+
+    /* ESTE ES EL CAMBIO QUE ARREGLA EL TAMAÑO DEL QR */
+    .attribution img {
+      width: 100%;      
+      height: auto;     
+      border-radius: 10px; 
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    .attribution h3 {
+      color: hsl(218, 44%, 22%);
+      font-size: 22px;
+      margin-bottom: 16px;
+      padding: 0 10px;
+      font-weight: 700;
+    }
+
+    .attribution p {
+      color: hsl(216, 15%, 48%);
+      font-size: 15px;
+      padding: 0 15px;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="attribution">
+    <img src="images/image-qr-code.png" alt="QR Code">
+    <h3>Improve your front-end skills by building projects</h3>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+
+</body>
+</html>
